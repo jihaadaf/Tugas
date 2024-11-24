@@ -1,0 +1,622 @@
+.Kahf {
+    height: 70vh;
+    width: 94%;
+    background-image: 
+    background-size: cover;
+    background-position: center;
+    padding: 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0,75;
+}
+
+/*bagian navbar - home page atas*/
+header {
+    background-color: #c8c8cd   ; /* Slight transparency */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #44635b;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #44635b  ;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #44635b;
+}
+
+.search-button button {
+    background-color: #44635b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-button button:hover {
+    background-color: #44635b;
+
+}
+
+.Kahf {
+    height: 100vh;
+    width: 95%;
+    background-image: 
+    background-size: cover;
+    background-position: center;
+    padding: 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+}
+.body {
+    color: #000000;
+    background-color:#cbd6d4;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "kalam", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 1 rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.Quotation {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.5rem;
+    font-family: "kalam";
+    margin-bottom: 70px;
+    color: var(--secondary-color);
+}
+.outline p {
+    text-align: center;
+    color: #44635b;
+    padding: 10px 0;
+    outline-style: dotted;
+    font-weight: bold;
+    outline-width: 5px;
+    outline-offset: 10px;
+    background-color: #cbd6d4;
+    font-family: "kalam";
+    font-size: 30px; 
+}
+/*box-model*/
+.bubble-box {
+    position: relative;
+    padding: 30px;
+    border: 8px solid #44635b;
+    margin: 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #cbd6d4;
+    width: 1100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.5;
+}
+.custom-heading {
+    font-family: "kalam", serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 40px;
+    color: #44635b;
+    text-align: center;
+    margin-top: 20px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh; /* Membuat foto berada di tengah secara vertikal */
+}
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+.outline p {
+    text-align: center;
+    color: #44635b;
+    padding: 10px 0;
+    outline-style: dotted;
+    font-weight: bold;
+    outline-width: 5px;
+    outline-offset: 10px;
+    background-color: #cbd6d4;
+    font-family: "kalam";
+    font-size: 30px; 
+}
+.custom-heading {
+    font-family: "kalam", serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 40px;
+    color: #44635b;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*gambar slide*/
+.gallery{
+    width: 100%;
+}
+
+.gallery-container{
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.gallery-item{
+    height: 100px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 150px;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+}
+
+.gallery-item-2, .gallery-item-4{
+    height: 250px;
+    opacity: 0.8;
+    width: 380px;
+    z-index: 1;
+}
+
+.gallery-item-2{
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.gallery-item-3{
+    box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
+    height: 300px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 430px;
+    z-index: 2;
+
+}
+
+.gallery-controls{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    height: 100px;
+}
+
+.gallery-controls button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 50px;
+    padding: 0 12px;
+    text-transform: capitalize;
+}
+
+.gallery-controls-button:focus{
+    outline: none;
+}
+
+.gallery-controls-previous{
+    position: relative;
+    color: var(--secondary-color)
+}
+
+.gallery-controls-previous::before{
+    border: solid var(--secondary-color);
+    border-width: 0 5px 5px 0;
+    content: '';
+    display: inline-block;
+    height: 5px;
+    left: -30px;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    transform: rotate(135deg) translateY(-50%);
+    transition: left 0.15s ease-in-out;
+    width: 5px;
+}
+
+.gallery-controls-previous:hover::before{
+    left: -10px;
+}
+
+.gallery-controls-next{
+    position: relative;
+    color: var(--secondary-color)
+}
+
+.gallery-controls-next::before{
+    border: solid var(--secondary-color);
+    border-width: 0 5px 5px 0;
+    content: '';
+    display: inline-block;
+    height: 5px;
+    left: 90px;
+    padding: 10px;
+    position: absolute;
+    top: 45%;
+    transform: rotate(-45deg) translateY(-50%);
+    transition: left 0.15s ease-in-out;
+    width: 5px;
+}
+
+.gallery-controls-next:hover::before{
+    left: 70px;
+}
+/*Wardah Produk*/
+
+.title-pricekahf {
+    background-color: #cbd6d4;
+    font-family: "kalam", serif;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #44635b;
+}
+.kahf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    
+} 
+.produk-kahf{
+    background-color: #cbd6d4;
+    padding: 1.5em;
+    width: 200px;
+    text-align: center;
+    border-radius: 6px;
+    color: #44635b;
+}
+
+.produk-kahf img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6)
+}
+.produk-kahf h3 {
+    margin-top: 10px;
+    color: #44635b;
+}
+.produk-kahf button {
+    padding: 10px 20px;
+    background-color:#efe1d3;
+    color: #44635b;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.produk-kahf button:hover {
+    background-color: #f9fcfd;
+}   
+
+#kahf1 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#kahf2 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#kahf3 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.title-pricekahf {
+    background-color: #cbd6d4;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #44635b;
+}
+.kahf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+} 
+.produk-kahf {
+    background-color: #cbd6d4;
+    padding: 1.5em;
+    width: 200px;
+    text-align: center;
+    border-radius: 6px;
+    color: #44635b;
+}
+
+.produk-kahf img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6)
+}
+.produk-kahf h3 {
+    margin-top: 10px;
+    color: #44635b;
+}
+.produk-kahf button {
+    padding: 10px 20px;
+    background-color:#efe1d3;
+    color: #44635b;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.produk-kahf button:hover {
+    background-color: #f9fcfd;
+}   
+
+#kahf {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#kahf2 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#kahf3 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#kahf4 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#kahf5 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#kahf6 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.isivideo,
+.isiytb,
+.isiaudio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.isivideo video,
+.isiytb .ytb iframe {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.ytb {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 5px;
+    overflow: hidden;
+}
+.hubungi {
+    text-align: center;
+}
+
+.isihubungi {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.isiform  {
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+} 
+
+.input label {
+    margin-bottom: 5px;
+
+}
+
+.input input {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 100%;
+} 
+
+
+label {
+    display: block;
+}
+
+input:invalid,
+input:required:invalid {
+    border: none;
+    outline: 2px solid #44635b;
+}
+
+input:valid
+input:required {
+    border: 1px solid black;
+    outline: inherit;
+}
+/*footer dan icons*/
+footer {
+    background-color: #cbd6d4; 
+    padding: 10px; 
+    text-align: left; 
+    font-family: Verdana;
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1190px; 
+    margin: 10px auto; 
+    padding-bottom: 10px;
+}
+.tagline {
+    padding-top: 20px;
+}
+.kontak {
+    padding-top: 20px;
+    padding-left: 510px;
+}
+.icons {
+    padding-top: 18px;
+    display: flex;
+}
+.fa-brands.fa-instagram.fa-2x {
+    color: #2c3e50;
+    padding-right: 15px;
+}
+.fa-regular.fa-envelope.fa-2x {
+    color: red;
+    padding-right: 15px;
+}
+.fa-brands.fa-instagram.fa-2x {
+    color: purple;
+    padding-right: 15px;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #44635b;
+}
+  
+.lihat-lebih {
+    text-decoration: none;
+    color: #44635b;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+  
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+  
+.card {
+    background: white;
+    border: 5px dotted #44635b;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding-bottom: 25px;
+}
+.card img {
+    width: 200%;
+    height: auto; 
+    object-fit: contain;
+}
+  
+.card h2 {
+    font-size: 15px;
+    margin: 15px 0;
+    color: #333;
+    text-align: center;
+}
+  
+.card p {
+    font-size: 20px;
+    color: #666;
+    padding: 0 15px;
+    text-align: justify;
+}
+  
+.card .read-more {
+    display: inline-block;
+    margin: 10px 0 15px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding-left: 5px;
+    font-size: 13px;
+}
