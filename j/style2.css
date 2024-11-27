@@ -1,0 +1,369 @@
+.Kahf {
+    height: 70vh;
+    width: 94%;
+    background-image: url(images/logo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0,75;
+}
+
+/*bagian navbar - home page atas*/
+header {
+    background-color: #cbd6d4   ; /* Slight transparency */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #44635b;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #44635b  ;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #44635b;
+}
+
+.search-button button {
+    background-color: #44635b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-button button:hover {
+    background-color: #44635b;
+
+}
+.outline p {
+    text-align: center;
+    color: #44635b;
+    padding: 10px 0;
+    outline-style: dotted;
+    font-weight: bold;
+    outline-width: 5px;
+    outline-offset: 10px;
+    background-color: #cbd6d4;
+    font-family: "kalam";
+    font-size: 30px; 
+
+}
+
+.container-profil {
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.content-profil {
+    line-height: 1,5;
+    padding: 10px;
+}
+
+.content-profil p { 
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 20px;
+    font-family: Verdana;
+    padding-bottom: 10px;
+}
+
+dl.a {
+    list-style:disc;
+    background: #cbd6d4;
+    padding: 20px;
+    line-height: 1.8;
+    margin-inline-start: 10px;
+    float: left;
+    width: 50%;
+}
+
+dl {
+    margin-bottom: 5px;
+}
+
+dl dt {
+    background: #cbd6d4;
+    color: #000000;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+dl dd {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding: 2px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+dl li {
+    margin-bottom: 5px;
+    margin-left: 5%;
+    font-size: 20px;
+    text-align: justify;
+    opacity: 80%;
+}
+
+.image-Profil {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 60px;
+    gap: 10px;
+    overflow: hidden;
+    padding: 0;
+    float: right;
+    width: 40%
+}
+
+.image-Profil img {
+    height: auto;
+    display: block;
+    width: 80%;
+    padding-bottom: 5px;
+}
+.hubungi {
+    text-align: center;
+}
+
+.isihubungi {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.isiform  {
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+} 
+
+.input label {
+    margin-bottom: 5px;
+
+}
+
+.input input {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 100%;
+} 
+
+
+label {
+    display: block;
+}
+
+input:invalid,
+input:required:invalid {
+    border: none;
+    outline: 2px solid #44635b;
+}
+
+input:valid
+input:required {
+    border: 1px solid black;
+    outline: inherit;
+}
+/* General Section Styling */
+#contact-us {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+#contact-us h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+  
+/* Contact Information */
+  .contact-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+  
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+  
+.contact-info a:hover {
+    text-decoration: underline;
+}
+  
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+form label {
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+  
+form textarea {
+    resize: vertical;
+}
+form button {
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+form button:hover {
+    background-color: #2980b9;
+}
+ /* Social Media Links */
+ .social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.social-media p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.social-media a:hover {
+    text-decoration: center;
+}
+/*footer dan icons*/
+footer {
+    background-color: #cbd6d4; 
+    padding: 10px; 
+    text-align: left; 
+    font-family: Verdana;
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1190px; 
+    margin: 10px auto; 
+    padding-bottom: 10px;
+}
+.tagline {
+    padding-top: 20px;
+}
+.kontak {
+    padding-top: 20px;
+    padding-left: 510px;
+}
+.icons {
+    padding-top: 18px;
+    display: flex;
+}
+.fa-brands.fa-instagram.fa-2x {
+    color: purple;
+    padding-right: 15px;
+}
+.fa-regular.fa-envelope.fa-2x {
+    color: red;
+    padding-right: 15px;
+}
+.isivideo,
+.isiytb,
+.isiaudio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.isivideo video,
+.isiytb .ytb iframe {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+
+.ytb {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 5px;
+    overflow: hidden;
+}
